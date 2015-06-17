@@ -1,5 +1,7 @@
 # objc-api-client
 
+[![NPM Version](https://img.shields.io/cocoapods/v/APIHTTPClient.svg)](https://cocoapods.org/pods/APIHTTPClient) [![License](https://img.shields.io/cocoapods/l/APIHTTPClient.svg)](https://cocoapods.org/pods/APIHTTPClient)
+
 ## Installation
 
 `pod install APIHTTPClient`
