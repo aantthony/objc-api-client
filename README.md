@@ -1,6 +1,8 @@
 # objc-api-client
 
-[![NPM Version](https://img.shields.io/cocoapods/v/APIHTTPClient.svg)](https://cocoapods.org/pods/APIHTTPClient) [![License](https://img.shields.io/cocoapods/l/APIHTTPClient.svg)](https://cocoapods.org/pods/APIHTTPClient)
+[![Pod Version](https://img.shields.io/cocoapods/v/APIHTTPClient.svg)](https://cocoapods.org/pods/APIHTTPClient)
+[![Build Status](https://img.shields.io/travis/aantthony/objc-api-client/master.svg)](https://travis-ci.org/aantthony/objc-api-client)
+ [![License](https://img.shields.io/cocoapods/l/APIHTTPClient.svg)](https://cocoapods.org/pods/APIHTTPClient)
 
 ## Installation
 
