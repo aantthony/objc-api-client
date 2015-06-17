@@ -20,7 +20,7 @@
 - (void)setUp {
     [super setUp];
     self.client = [[APIClient alloc] init];
-    self.client.baseURL = [NSURL URLWithString:@"https://api.github.com"];
+    self.client.baseURL = [NSURL URLWithString:@"http://graph.facebook.com"];
 }
 
 - (void)tearDown {
@@ -29,12 +29,10 @@
 
 - (void)testExample {
     XCTestExpectation *e = [self expectationWithDescription:@"request"];
-    [self.client GET:@"search/repositories" query:@{@"q": @"express"} done:^(NSError *error, id response) {
+    [self.client GET:@"cocacola" query:@{@"fields": @"about"} done:^(NSError *error, id response) {
         XCTAssertNil(error);
         XCTAssertNotNil(response);
-        
-        NSArray *results = response[@"items"];
-        XCTAssertGreaterThan(results.count, 0);
+        XCTAssertNotNil(response[@"about"]);
         [e fulfill];
     }];
 

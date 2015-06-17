@@ -1,3 +1,4 @@
 language: objective-c
 xcode_project: APIClient.xcodeproj
 xcode_scheme: APIClient
+xcode_sdk: iphonesimulator
