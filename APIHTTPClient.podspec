@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "APIHTTPClient"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "Simple HTTP client"
 
   s.description  = <<-DESC
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '7.0'
   s.osx.deployment_target = '10.9'
 
-  s.source       = { :git => "https://github.com/aantthony/objc-api-client.git", :tag => "v1.0.1"}
+  s.source       = { :git => "https://github.com/aantthony/objc-api-client.git", :tag => "v1.0.2"}
 
   s.source_files = "APIClient/*.{h,m}"
   s.exclude_files = "APIClientTests/*.{h,m}"
